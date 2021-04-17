@@ -10,8 +10,8 @@ int menu(int A, int B)
     int opcion;
     //system("cls");
     printf("-------Menu de opciones-------\n");
-    printf("1-Ingresar 1er operando: A=%d \n",A);
-    printf("2-Ingresar 2do operando: B=%d \n",B);
+    printf("1-Ingresar 1er operando: A=%f \n",A);
+    printf("2-Ingresar 2do operando: B=%f \n",B);
     printf("3-Calcular todas las operaciones:\n");
     printf("   -Sumar\n");
     printf("   -Restar\n");
@@ -22,7 +22,7 @@ int menu(int A, int B)
     printf("5- Cerrar calculadora.\n");
     printf("Ingrese su opcion: ");
     fflush(stdout);
-    scanf("%d",&opcion);
+    scanf("%f",&opcion);
     return opcion;
 
 }
